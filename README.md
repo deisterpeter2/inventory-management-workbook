@@ -34,34 +34,11 @@ Designed for small businesses, retail operations, warehouses, and office supply 
 
 Maintains the master inventory list.
 
-| Column | Description |
-|---------|-------------|
-| Item ID | Unique inventory identifier |
-| Description | Item description |
-| Category | Product category |
-| Supplier | Vendor name |
-| Unit Cost | Cost per unit |
-| Current Quantity | Current stock level |
-| Reorder Point | Minimum desired quantity |
-| Reorder Quantity | Suggested reorder amount |
-| Status | In Stock, Low Stock, Out of Stock |
-
 ![Product](images/product.jpg)
 
 ### Purchase Order Tracking
 
 Tracks inventory ordered from suppliers.
-
-| Field | Description |
-|-------|-------------|
-| PO Number | Purchase Order ID |
-| Vendor | Supplier |
-| Order Date | Date ordered |
-| Expected Delivery | Expected arrival |
-| Quantity Ordered | Ordered amount |
-| Quantity Received | Received amount |
-| Remaining Balance | Outstanding quantity |
-| Status | Open, Partial, Complete |
 
 ![purchase-orders](images/purchase-order.jpg)
 
