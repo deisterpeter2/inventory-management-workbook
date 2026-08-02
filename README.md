@@ -27,22 +27,88 @@ Designed for small businesses, retail operations, warehouses, and office supply 
 - Provide visual inventory alerts with conditional formatting
   
 ---
-## Screenshots
 
-### Dashboard
-![Dashboard](images/dashboard.jpg)
+## Workbook Structure
 
-### Product Tracking
+### Project Inventory
+
+Maintains the master inventory list.
+
+| Column | Description |
+|---------|-------------|
+| Item ID | Unique inventory identifier |
+| Description | Item description |
+| Category | Product category |
+| Supplier | Vendor name |
+| Unit Cost | Cost per unit |
+| Current Quantity | Current stock level |
+| Reorder Point | Minimum desired quantity |
+| Reorder Quantity | Suggested reorder amount |
+| Status | In Stock, Low Stock, Out of Stock |
+
 ![Product](images/product.jpg)
 
-### Purchase Order Tracking
+### Purchase Orders
+
+Tracks inventory ordered from suppliers.
+
+| Field | Description |
+|-------|-------------|
+| PO Number | Purchase Order ID |
+| Vendor | Supplier |
+| Order Date | Date ordered |
+| Expected Delivery | Expected arrival |
+| Quantity Ordered | Ordered amount |
+| Quantity Received | Received amount |
+| Remaining Balance | Outstanding quantity |
+| Status | Open, Partial, Complete |
+
 ![purchase-orders](images/purchase-order.jpg)
 
 ### Inventory Transactions
+
+Records all inventory movement including:
+
+- Inventory receipts
+- Inventory usage or sales
+- Quantity adjustments
+- Returns
+
+Inventory balances update automatically based on transaction history.
+
 ![Transactions](images/transactions.jpg)
 
 ### Inventory Counts
+
+Inventory counts in system to be compared to physical inventory counts.
+
 ![Inventory-count](images/inventory-count.jpg)
+
+
+### Dashboard
+
+Provides an at-a-glance summary of:
+
+- Total Inventory Items
+- Total Inventory Value
+- Low Stock Item Count
+- Open Purchase Orders
+- Recently Received Inventory
+
+![Dashboard](images/dashboard.jpg)
+
+---
+
+## Business Value
+
+This workbook demonstrates how Excel can improve inventory management by:
+
+- Reducing manual calculations
+- Improving inventory accuracy
+- Providing visibility into stock levels
+- Identifying reorder needs
+- Supporting purchasing decisions
+- Saving time through automation
 
 ---
 
@@ -63,99 +129,6 @@ Designed for small businesses, retail operations, warehouses, and office supply 
 
 ---
 
-## Workbook Structure
-
-### Inventory
-
-Maintains the master inventory list.
-
-| Column | Description |
-|---------|-------------|
-| Item ID | Unique inventory identifier |
-| Description | Item description |
-| Category | Product category |
-| Supplier | Vendor name |
-| Unit Cost | Cost per unit |
-| Current Quantity | Current stock level |
-| Reorder Point | Minimum desired quantity |
-| Reorder Quantity | Suggested reorder amount |
-| Status | In Stock, Low Stock, Out of Stock |
-
-### Purchase Orders
-
-Tracks inventory ordered from suppliers.
-
-| Field | Description |
-|-------|-------------|
-| PO Number | Purchase Order ID |
-| Vendor | Supplier |
-| Order Date | Date ordered |
-| Expected Delivery | Expected arrival |
-| Quantity Ordered | Ordered amount |
-| Quantity Received | Received amount |
-| Remaining Balance | Outstanding quantity |
-| Status | Open, Partial, Complete |
-
-### Inventory Transactions
-
-Records all inventory movement including:
-
-- Inventory receipts
-- Inventory usage or sales
-- Quantity adjustments
-- Returns
-
-Inventory balances update automatically based on transaction history.
-
-### Dashboard
-
-Provides an at-a-glance summary of:
-
-- Total Inventory Items
-- Total Inventory Value
-- Low Stock Item Count
-- Open Purchase Orders
-- Recently Received Inventory
-
----
-
-## Business Value
-
-This workbook demonstrates how Excel can improve inventory management by:
-
-- Reducing manual calculations
-- Improving inventory accuracy
-- Providing visibility into stock levels
-- Identifying reorder needs
-- Supporting purchasing decisions
-- Saving time through automation
-
----
-
-## Technologies Used
-
-- Microsoft Excel
-- Excel Tables
-- XLOOKUP
-- SUMIFS
-- COUNTIFS
-- IF Functions
-- Data Validation
-- Conditional Formatting
-
----
-
-## Example Workflow
-
-1. Add new inventory items.
-2. Record purchase orders.
-3. Update received quantities.
-4. Record inventory usage.
-5. Review the dashboard for low-stock items.
-6. Reorder inventory when necessary.
-
----
-
 ## Repository Contents
 
 ```
@@ -169,6 +142,7 @@ Inventory-Management/
 │   ├── invoices.jpg
 │   ├── purchase-orders.jpg
 │   └── payments.jpg
+```
 ---
 
 ## Future Enhancements
