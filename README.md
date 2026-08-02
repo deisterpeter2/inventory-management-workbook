@@ -25,6 +25,24 @@ Designed for small businesses, retail operations, warehouses, and office supply 
 - Generate inventory summaries
 - Reduce data entry errors using data validation
 - Provide visual inventory alerts with conditional formatting
+  
+---
+## Screenshots
+
+### Dashboard
+![Dashboard](images/dashboard.jpg)
+
+### Product Tracking
+![Product](images/product.jpg)
+
+### Purchase Order Tracking
+![purchase-orders](images/purchase-order.jpg)
+
+### Inventory Transactions
+![Transactions](images/transactions.jpg)
+
+### Inventory Counts
+![Inventory-count](images/inventory-count.jpg)
 
 ---
 
@@ -138,6 +156,21 @@ This workbook demonstrates how Excel can improve inventory management by:
 
 ---
 
+## Repository Contents
+
+```
+Inventory-Management/
+│
+├── Inventory_Management.xlsx
+├── README.md
+│
+├── images/
+│   ├── dashboard.jpg
+│   ├── invoices.jpg
+│   ├── purchase-orders.jpg
+│   └── payments.jpg
+---
+
 ## Future Enhancements
 
 - Power Query data import
@@ -149,9 +182,4 @@ This workbook demonstrates how Excel can improve inventory management by:
 
 ---
 
-## Author
-
-**Peter Deister**
-
-This project demonstrates Excel automation, inventory management, and business process improvement skills applicable to administrative, operations, inventory, analyst, and office support roles.
 ```
