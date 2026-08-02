@@ -95,7 +95,7 @@ Provides an at-a-glance summary of:
 
 - Total Inventory Items
 - Total Inventory Value
-- Low Stock Items
+- Low Stock Item Count
 - Open Purchase Orders
 - Recently Received Inventory
 
