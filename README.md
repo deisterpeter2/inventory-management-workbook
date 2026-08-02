@@ -30,7 +30,7 @@ Designed for small businesses, retail operations, warehouses, and office supply 
 
 ## Workbook Structure
 
-### Project Inventory
+### Product Inventory Tracking
 
 Maintains the master inventory list.
 
@@ -48,7 +48,7 @@ Maintains the master inventory list.
 
 ![Product](images/product.jpg)
 
-### Purchase Orders
+### Purchase Order Tracking
 
 Tracks inventory ordered from suppliers.
 
